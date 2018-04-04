@@ -1,4 +1,4 @@
-const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+const key = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
 function init() {
 let i=0;
@@ -7,7 +7,7 @@ const key = parseInt(e.which|| e.detail);
 if(key === code[i]){
   i++;
 if (i === code.length){
-alert("Congratulation!!");
+console.log("Congratulation!!");
 i=0;
 }
 } else{
